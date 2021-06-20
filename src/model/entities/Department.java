@@ -2,14 +2,12 @@ package model.entities;
 
 import java.io.Serializable;
 
-public class Department implements Serializable {
-
-    private static final long serialVersionUID = 1L;
-
+public class Department implements Serializable{
     private Integer id;
     private String name;
 
-    public Department() {
+    public Department(){
+
     }
 
     public Department(Integer id, String name) {
